@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 import { Route, Switch } from 'react-router-dom';
+import NavBar from '../../components/NavBar/NavBar';
+import AboutPage from '../About/AboutPage';
+import ServicesPage from '../Services/ServicesPage';
 import './App.css';
+
 
 class App extends Component {
   /*--- State ---*/
@@ -9,9 +13,16 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header"></header>
         <Switch>
-          
+          <Route exact path='/' render={() =>
+            <NavBar />
+          }/>
+          <Route exact path='/about' render={() =>
+            <AboutPage />
+          }/>
+          <Route exact path='/services' render={() =>
+            <ServicesPage />
+          }/>
         </Switch>
       </div>
     );

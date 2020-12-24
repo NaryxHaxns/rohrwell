@@ -3,3 +3,32 @@
     width: 100%;
     text-align: center;
 }
+
+.jeffBio, .jesseBio {
+    width: 90%;
+    height: auto;
+    border: 6px solid brown;
+}
+
+.jeffImgContainer, .jesseImgContainer {
+    padding: 20px;
+}
+
+.jeffImg, .jesseImg {
+    width: 100%;
+    height: auto;
+    border: 3px solid brown;
+}
+
+.jeffBioTxt {
+    margin: 20px;
+    padding: 20px;
+    border: 3px solid brown;
+}
+
+.jeffQuoteContainer {
+    border: 1px solid brown;
+    margin-right: 120px;
+    margin-left: 120px;
+    padding: 5px;
+}

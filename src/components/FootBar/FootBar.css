@@ -1,0 +1,31 @@
+.FootBar {
+    width: 100%;
+    background-color: brown;
+    padding: 10px;
+    display: grid;
+    grid-template-areas: 'name . . . .' '. home about services .' '. . . . powered';
+}
+
+.foot-link, h2, h4 {
+    color: #dfd572;
+}
+
+h2 {
+    grid-area: name;
+}
+
+#home {
+    grid-area: home;
+}
+
+#about {
+    grid-area: about;
+}
+
+#services {
+    grid-area: services;
+}
+
+h4 {
+    grid-area: powered;
+}

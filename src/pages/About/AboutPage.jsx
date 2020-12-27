@@ -36,8 +36,12 @@ const AboutPage = () => {
                     <div className='jesseImgContainer'>
                         <img className='jesseImg' src="https://i.imgur.com/a6DswMy.jpg" alt="Jesse"/>
                     </div>
-                    <h2>Jesse Jordan</h2>
+                    <h2>Jesse Rohr</h2>
+                    <div className='jesseBioTxt'>
+                        <p>Jesse Rohr has worked in the healing arts for 19 years. He is a certified massage therapist, personal trainer, holistic practitioner, emergency medical technician and ordained minister. His massage therapy style includes acupressure, sports massage, trigger points, neuromuscular therapy, Thai Stretching , reflexology and Reiki. He customizes sessions to each individuals need whether it be reparative or relaxation. Utilizing his years as a trainer he is able to assess the body and design a healing regimen. Jeff and Jesse work together to achieve maximum results in performance and healing. For the last 3 years he has been trained and practicing as a Holistic Practitioner utilizing Biofeedback and Bioresonance technology that is able to use sound waves for diagnostic reports and healing imbalances in the body.</p>
+                    </div>
                 </div>
+                <br/><br/>
             </div>
         </div>
     )

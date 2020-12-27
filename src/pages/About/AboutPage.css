@@ -5,6 +5,7 @@
 }
 
 .jeffBio, .jesseBio {
+    margin-left: 4%;
     width: 90%;
     height: auto;
     border: 6px solid brown;
@@ -20,7 +21,7 @@
     border: 3px solid brown;
 }
 
-.jeffBioTxt {
+.jeffBioTxt, .jesseBioTxt {
     margin: 20px;
     padding: 20px;
     border: 3px solid brown;

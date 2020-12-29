@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router } from 'react-router-dom';
+import './fonts/Nunito_Sans/NunitoSans-Regular.ttf';
+import './fonts/Yellowtail/Yellowtail-Regular.ttf';
 import './index.css';
 import App from './pages/App/App';
 import reportWebVitals from './reportWebVitals';

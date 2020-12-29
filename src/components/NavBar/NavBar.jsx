@@ -6,7 +6,7 @@ import './NavBar.css';
 const NavBar = () => {
     return(
         <div className='NavBar'>
-            <Link to='' className='Home-link'><img className='logoImg' src="https://i.imgur.com/aAcJgL6.jpg" alt="Company Logo"/></Link>
+            <Link to='' className='Home-link'><img className='logoImg' src="https://i.imgur.com/ckz0sdB.jpg" alt="Company Logo"/></Link>
             <Menu>
                 <a id='home' className='menu-item' href="/">Home</a>
                 <a id='about' className='menu-item' href="/about">About</a>

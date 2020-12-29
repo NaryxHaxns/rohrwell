@@ -2,6 +2,7 @@
     height: 100vh;
     width: 100%;
     text-align: center;
+    font-family: NunitoSans;
 }
 
 .jeffBio, .jesseBio {
@@ -32,4 +33,10 @@
     margin-right: 120px;
     margin-left: 120px;
     padding: 5px;
+}
+
+.jeffQuote {
+    font-family: Yellowtail;
+    color: gray;
+    font-size: x-large;
 }

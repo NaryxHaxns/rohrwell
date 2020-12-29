@@ -6,11 +6,11 @@
     grid-template-areas: 'name . . . .' '. home about services .' '. . . . powered';
 }
 
-.foot-link, h2, h4 {
+.foot-link, .companyName, .poweredBy {
     color: #dfd572;
 }
 
-h2 {
+.companyName {
     grid-area: name;
 }
 
@@ -26,6 +26,6 @@ h2 {
     grid-area: services;
 }
 
-h4 {
+.poweredBy {
     grid-area: powered;
 }

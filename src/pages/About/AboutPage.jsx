@@ -1,5 +1,6 @@
 import React from 'react';
 import NavBar from '../../components/NavBar/NavBar';
+import FootBar from '../../components/FootBar/FootBar';
 import './AboutPage.css';
 
 const AboutPage = () => {
@@ -7,7 +8,7 @@ const AboutPage = () => {
         <div>
             <NavBar />
             <div className='AboutPage'>
-                <h5>RohrWell Team Bios</h5>
+                <h1>RohrWell Team Bios</h1>
                 <div className='jeffBio'>
                     <div className='jeffImgContainer'>
                         <img className='jeffImg' src="https://i.imgur.com/wrbYpTF.jpg" alt="Jeff"/>
@@ -42,6 +43,7 @@ const AboutPage = () => {
                     </div>
                 </div>
                 <br/><br/>
+                <FootBar />
             </div>
         </div>
     )

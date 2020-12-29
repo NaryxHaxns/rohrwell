@@ -13,7 +13,7 @@ const Landing = () => {
         <div>
             <NavBar />
             <div className='landingImgContainer'>
-                <img className='landingImg' src="https://i.imgur.com/vOaSCqZ.jpg" alt="Jeff and Jesse"/>
+                <img className='landingImg' src="https://i.imgur.com/JSeJkSK.jpg" alt="Jeff and Jesse"/>
                 <br/><br/>
                 {/* <Map google={this.props.google} zoom={10} initialCenter={{lat: , lng: }} style={style} /> */}
             </div>

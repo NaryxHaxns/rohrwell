@@ -8,7 +8,7 @@ const AboutPage = () => {
         <div>
             <NavBar />
             <div className='AboutPage'>
-                <h1>RohrWell Team Bios</h1>
+                <h1>About Us</h1>
                 <div className='jeffBio'>
                     <div className='jeffImgContainer'>
                         <img className='jeffImg' src="https://i.imgur.com/wrbYpTF.jpg" alt="Jeff"/>

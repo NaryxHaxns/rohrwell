@@ -4,10 +4,6 @@ import FootBar from '../../components/FootBar/FootBar'
 import './Landing.css';
 
 const Landing = () => {
-    const style = {
-        width: '300px',
-        height: '300px'
-    }
     return(
         <div>
             <NavBar />

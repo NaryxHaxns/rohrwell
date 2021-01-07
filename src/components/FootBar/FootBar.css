@@ -9,6 +9,7 @@
 
 .foot-link, .companyName, .poweredBy {
     color: #dfd572;
+    margin: 5px;
 }
 
 .companyName {

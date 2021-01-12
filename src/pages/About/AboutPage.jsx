@@ -16,7 +16,7 @@ const AboutPage = () => {
                     <h2>Jeff Rohr</h2>
                     <div className='jeffBioTxt'>
                         <div className='bioPtOneContainer'>
-                            <p>Jeffrey Rohr is a Certified Health Coach and Personal Trainer through the American Council on Exercise. He fell in love with the capabilities of the human body in his teenage years. Back then, it started simply by throwing around some dumbbells in the gym. Recognizing the body’s response caused his curiosity to to turn into passion.</p>
+                            <p>Jeffrey Rohr is a Certified Health Coach and Personal Trainer through the American Council on Exercise. He fell in love with the capabilities of the human body in his teenage years. Back then, it started simply by throwing around some dumbbells in the gym. Recognizing the body’s response caused his curiosity to turn into passion.</p>
                         </div>
                         <div className='jeffQuoteContainer'>
                             <p className='jeffQuote'>“The best part about being human is that we heal.” -Jeff Rohr</p>
